@@ -1,0 +1,7 @@
+\h1{Introduction}
+
+This project aims to develop a tree-search algorithm using Python. Initially, the general concept and structure of a search tree will be outlined, along with an explanation of the various search types implemented in the code. 
+The focus will then shift to the Python implementation, including details on code structure and data representation. Finally, the algorithm will be tested on some example problems to evaluate its performance and compare the different search strategies.
+
+\h1{What is a Tree Search algorithm?}
+If we consider problem in which the possible states can be represented as nodes of a tree, and the actions can be represented by edges between nodes, we can define a search strategy that builds a tree structure in which the first node is the starting status, and the children are the states that can be reached with a particular action. This can be continued to build a tree-like structure. The goal of the algorithm is, starting from the problem definition, build a tree that represents the problem and find a path that connects the starting node to the goal node through a list of actions.

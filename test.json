@@ -1,0 +1,135 @@
+{
+    "0":{
+        "type": "header",
+        "depth": 1,
+        "text": "Introduction"
+    },
+    "1":{
+        "type": "text",
+        "text": "This project aims to develop a tree-search algorithm using Python. Initially, the general concept and structure of a search tree will be outlined, along with an explanation of the various search types implemented in the code. The focus will then shift to the Python implementation, including details on code structure and data representation. Finally, the algorithm will be tested on some example problems to evaluate its performance and compare the different search strategies.",
+        "align": "J"
+    },
+    "2":{
+        "type": "cmd",
+        "command": "vspace",
+        "amount": 8
+    },
+    "3":{
+        "type": "header",
+        "depth": 1,
+        "text": "What is a Tree Search algorithm?"
+    },
+    "3.5":{
+        "type": "header",
+        "depth": 2,
+        "text": "Subtitle2"
+    },
+    "3.55":{
+        "type": "header",
+        "depth": 3,
+        "text": "Subtitle3"
+    },
+    "3.555":{
+        "type": "header",
+        "depth": 4,
+        "text": "Subtitle4"
+    },
+    "3.5555":{
+        "type": "header",
+        "depth": 5,
+        "text": "Subtitle5"
+    },
+    "3.55565":{
+        "type": "header",
+        "depth": 5,
+        "text": "Subtitle5-1"
+    },
+    "4":{
+        "type": "text",
+        "text": "If we consider problem in which the possible states can be represented as nodes of a tree, and the actions can be represented by edges between nodes, we can define a search strategy that builds a tree structure in which the first node is the starting status, and the children are the states that can be reached with a particular action. This can be continued to build a tree-like structure. The goal of the algorithm is, starting from the problem definition, build a tree that represents the problem and find a path that connects the starting node to the goal node through a list of actions."
+    },
+    "asda":{
+        "type": "text",
+        "text": "There exists multiple search algorithms and strategies, but they can be subdivided in one of these two classes:"
+    },
+    "5":{
+        "type": "itemize",
+        "elements": [
+            {
+                "type": "text",
+                "text": "Informed search algorithm"
+            },
+            {
+                "type": "text",
+                "text": "Uninformed search algorithm"
+            }
+        ]
+    },
+    "6.9":{
+        "type": "cmd",
+        "command": "vspace",
+        "amount": 4
+    },
+    "6":{
+        "type": "text",
+        "text": "To explain this concept, let's consider an example in which a search algorithm is applied to find a path between two points in a map. In this problem each intersection is represented as a state and the edges are the action to move from an intersection to another. We know intuitively that starting from a certain point, to find a possible solution is better to \"go\" in the general direction of our goal."
+    },
+    "7":{
+        "type": "text",
+        "text": "An uninformed search algorithm doesn't know if a particular path is leading to a solution state or not. This means that these algorithms can start searching in a direction that will never lead to a solution."
+    },
+    "8":{
+        "type": "text",
+        "text": "However, some search algorithms have a way to tell if a path or direction is good or not.This algorithm are called Informed search algorithms. In the previous example, an informed search algorithm can use the distance between the current position and the goal to evaluate if it's moving in a good direction, toward the target, or not. Using this information the search is more goal-driven and usually more efficient."
+    },
+    "9":{
+        "type": "image",
+        "path": "/As-10.jpg",
+        "caption": "uhuhuh",
+        "label": "fig-l'unica-cazz-di-fig",
+        "align": "C",
+        "w": 60
+    },
+    "9.2":{
+        "type": "image",
+        "path": "/As-50.jpg",
+        "caption": "uhuhuhx2",
+        "align": "C",
+        "w": 80
+    },
+    "9.9":{
+        "type": "cmd",
+        "command": "vspace",
+        "amount": 10
+    },
+    "10":{
+        "type": "grid",
+        "size": [2,2],
+        "elements": [
+            [
+                {
+                    "type": "text",
+                    "text": "pla0"
+                },
+                {
+                    "type": "text",
+                    "text": "Pla pla pla, some more text, some more more more more text"
+                }
+            ],
+            [
+                {
+                    "type": "text",
+                    "text": "pla3"
+                },
+                {
+                    "type": "image",
+                    "path": "/As-50.jpg",
+                    "w": 20,
+                    "align": "C"
+                    
+                }
+            ]
+
+        ]
+    }
+}
